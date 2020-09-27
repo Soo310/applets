@@ -1,0 +1,26 @@
+<!--page/one/index.wxml-->
+<view class="page">
+    <view class="nav-son" bindtap="listpx1">
+        <view>信息学院</view>
+        <image src='{{imgUrl}}'></image>
+    </view>
+ 
+    <view class="temp {{pxopen1 ? 'slidown' : 'slidup'}} {{pxshow1 ? 'disappear':''}}">
+        <view wx:for="{{content}}">
+            {{item}}
+        </view>
+    </view>
+</view>
+
+<view class="page">
+    <view class="nav-son" bindtap="listpx2">
+        <view>人文学院</view>
+        <image src='{{imgUrl}}'></image>
+    </view>
+ 
+    <view class="temp {{pxopen2 ? 'slidown' : 'slidup'}} {{pxshow2 ? 'disappear':''}}">
+        <view wx:for="{{content}}">
+            {{item}}
+        </view>
+    </view>
+</view>

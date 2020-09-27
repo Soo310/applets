@@ -1,0 +1,7 @@
+.list-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rpx;
+  transition: 1s;
+  overflow: hidden;
+}

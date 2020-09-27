@@ -1,0 +1,123 @@
+/**index.wxss**/
+
+.container{
+  height: 1500rpx;
+}
+
+
+.container{
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+swiper{
+  width: 100%;
+  height: calc(100vw * 300 / 600);
+}
+image{
+  width: 100%;
+}
+.index-center{
+  margin-top: 10rpx;
+  padding-top: 20rpx;
+  border: 6rpx solid;
+  border-color:darkgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 40rpx;
+  border-radius: 15rpx;
+}
+
+.index-center-item{
+  height: 150rpx;
+  width: 166rpx;
+  margin: 4rpx;
+  align-items:center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.index-center-item image{
+  width: 70%;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  margin-top: 5rpx;
+}
+
+.index-center-item text{
+  position: absolute;
+  bottom: 0px;
+  justify-content: center;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -5rpx;
+}
+
+.gdufe{
+  margin-top: 15rpx;
+  height: 140rpx;
+  width: 100%;
+  border-bottom:  5rpx solid darkgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.gdufecoin{
+  position: absolute;
+  display: flex;
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.gdufetext1{
+  position: absolute;
+  left: 170rpx;
+  font-size: 30rpx;
+  top: 25rpx;
+  font-family:KaiTi;
+  font-weight: 700;
+  color: red;
+}
+
+.gdufetext2{
+  position: absolute;
+  left: 170rpx;
+  font-size: 30rpx;
+  font-family: KaiTi;
+  font-weight: 700;
+  color: red;
+}
+
+.gtext1{
+  position: absolute;
+  left: 270rpx;
+  font-size: 26rpx;
+  top: 20rpx;
+  color: black;
+}
+
+.gtext2{
+  position: absolute;
+  left: 270rpx;
+  font-size: 26rpx;
+  color: black;
+}
+
+.advertise{
+  margin: 20rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40rpx;
+  font-weight: 700;
+
+}

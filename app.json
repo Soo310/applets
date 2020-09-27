@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/navigation/navigation",
+    "pages/call/call",
+    "pages/book/book",
+    "pages/more/more",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "新生",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_focus.png"
+      },
+      {
+        "pagePath": "pages/navigation/navigation",
+        "text": "",
+        "iconPath": "images/navigation.png",
+        "selectedIconPath": "images/navigation_focus.png"
+      },
+      {
+        "pagePath": "pages/call/call",
+        "text": "",
+        "iconPath": "images/call.png",
+        "selectedIconPath": "images/call_focus.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book_focus.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "",
+        "iconPath": "images/more.png",
+        "selectedIconPath": "images/more_focus.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

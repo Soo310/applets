@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<swiper autoplay="true" interval="1500" circular indicator-dots indicator-active-color="red">
+  <swiper-item><image mode="widthFix" src="../../images/swiper2.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/swiper1.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/swiper3.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/swiper4.jpg"></image></swiper-item>
+  <swiper-item><image mode="widthFix" src="../../images/swiper5.jpg"></image></swiper-item>
+</swiper>
+
+<view class="index-center">
+  <navigator url="../answer/answer" class="index-center-item">
+    <image src="../../images/server.png" mode="widthFix"></image>
+    <text>欢迎光临</text>
+  </navigator>
+ 
+  <navigator url="../answer/answer" class="index-center-item">
+    <image src="../../images/server.png" mode="widthFix"></image>
+    <text>入门</text>
+  </navigator>
+
+  <navigator url="../answer/answer" class="index-center-item">
+    <image src="../../images/server.png" mode="widthFix"></image>
+    <text>→</text>
+  </navigator>
+
+  <navigator url="../answer/answer" class="index-center-item">
+    <image src="../../images/server.png" mode="widthFix"></image>
+    <text>入土</text>
+  </navigator>
+</view>
+
+<view class="gdufe">
+    <image src="../../images/gdufe.png" class="gdufecoin"></image>
+    <view><text class="gdufetext1">热门</text><text class="gtext1">广东财经大学教务处</text></view>
+    <view><text class="gdufetext2">热门</text><text class="gtext2">广东财经大学信息门户</text></view>
+</view>
+
+<view>
+    <view class="advertise"><text>广告位</text></view>
+    <view style="font-size:60rpx;margin:20rpx;color:red;display:flex;justify-content: center;">广告位出租，有需要请联系XXXXXXXXXX</view>
+</view>
+</scroll-view>
+

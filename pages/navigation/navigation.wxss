@@ -1,0 +1,18 @@
+.navi{
+  height: 200rpx;
+  margin: 160rpx;
+  border: 6rpx solid;
+  border-color:darkgray;
+  display: flex;
+  justify-content: center;
+  border-radius: 15rpx;
+}
+
+.xiaoqu{
+  font-size: 100rpx;
+  display: flex;
+  font-family: YouYuan;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+<view class='list-info' style='{{listShow[index]&&listShow[index].show ? "height:"+listShow[index].listHeight : "height:0rpx"}}'>
+          <text>前端10名 3-5年工作经验</text>
+          <text>前端10名 3-5年工作经验</text>
+          <text>前端10名 3-5年工作经验</text>
+          <text>前端10名 3-5年工作经验</text>
+ </view>

@@ -1,0 +1,8 @@
+<!--pages/navigation/navigation.wxml-->
+<navigator class="navi" url="../search/search">
+  <text class="xiaoqu">三水校区</text>
+</navigator>
+
+<navigator class="navi" url="../search/search">
+  <text class="xiaoqu">海珠校区</text>
+</navigator>
